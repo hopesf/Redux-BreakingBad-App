@@ -12,7 +12,6 @@ specifiers:
   react-dom: ^18.2.0
   react-redux: ^8.0.4
   react-router-dom: ^6.4.2
-  react-scroll-motion: ^0.3.0
   react-tsparticles: ^2.3.3
   tailwindcss: ^3.1.8
   tsparticles: ^2.3.4
@@ -25,7 +24,6 @@ dependencies:
   react-dom: 18.2.0_react@18.2.0
   react-redux: 8.0.4_5uumaiclxbdbzaqafclbf6maf4
   react-router-dom: 6.4.2_biqbaboplfbrettd7655fr4n2y
-  react-scroll-motion: 0.3.0_biqbaboplfbrettd7655fr4n2y
   react-tsparticles: 2.3.3_react@18.2.0
   tsparticles: 2.3.4
 
@@ -1294,16 +1292,6 @@ packages:
     dependencies:
       '@remix-run/router': 1.0.2
       react: 18.2.0
-    dev: false
-
-  /react-scroll-motion/0.3.0_biqbaboplfbrettd7655fr4n2y:
-    resolution: {integrity: sha512-/7VUbyu0nONmlyQsnivcAOPCdc6GnS6LFL7R3QygtBjVAmA7dD29B/jje3jNa0fLlrwycriXq/Nm9sWgX7A1Bw==}
-    peerDependencies:
-      react: ^18.0.11
-      react-dom: ^18.0.11
-    dependencies:
-      react: 18.2.0
-      react-dom: 18.2.0_react@18.2.0
     dev: false
 
   /react-tsparticles/2.3.3_react@18.2.0:

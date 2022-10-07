@@ -4,7 +4,10 @@ import { extraReducers } from './charactersApiHandle';
 
 const initialState = {
   allCharacters: [],
-  popularCharacters: [],
+  popularCharacters: {
+    items: [],
+    status: 'idle',
+  },
 };
 
 const charactersSlice = createSlice({
