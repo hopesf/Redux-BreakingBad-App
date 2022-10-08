@@ -3,7 +3,10 @@ import { reducers } from './charactersReducers';
 import { extraReducers } from './charactersApiHandle';
 
 const initialState = {
-  allCharacters: [],
+  allCharacters: {
+    items: [],
+    status: 'idle',
+  },
   popularCharacters: {
     items: [],
     status: 'idle',

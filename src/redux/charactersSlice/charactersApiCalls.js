@@ -7,3 +7,8 @@ export const popularCharactersAsync = createAsyncThunk('characters/popularCharac
   const { data } = await axios.get(baseUrl + '/api/characters?limit=4&offset=0');
   return data;
 });
+
+export const allCharactersAsync = createAsyncThunk('characters/allCharacters', async () => {
+  const { data } = await axios.get(baseUrl + '/api/characters');
+  return data;
+});
