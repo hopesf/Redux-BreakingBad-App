@@ -10,7 +10,7 @@ specifiers:
   postcss: ^8.4.17
   react: ^18.2.0
   react-dom: ^18.2.0
-  react-redux: ^8.0.4
+  react-redux: ^9.0.0
   react-router-dom: ^6.4.2
   react-tsparticles: ^2.3.3
   tailwindcss: ^3.1.8
@@ -18,11 +18,11 @@ specifiers:
   vite: ^3.1.0
 
 dependencies:
-  '@reduxjs/toolkit': 1.8.5_kuo2ie247izvzll3jejufdtq3q
+  '@reduxjs/toolkit': 1.8.5_wshafwreea6z3lscx66by7pcgq
   axios: 1.1.0
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0
-  react-redux: 8.0.4_5uumaiclxbdbzaqafclbf6maf4
+  react-redux: 9.0.2_5uumaiclxbdbzaqafclbf6maf4
   react-router-dom: 6.4.2_biqbaboplfbrettd7655fr4n2y
   react-tsparticles: 2.3.3_react@18.2.0
   tsparticles: 2.3.4
@@ -389,7 +389,7 @@ packages:
       fastq: 1.13.0
     dev: true
 
-  /@reduxjs/toolkit/1.8.5_kuo2ie247izvzll3jejufdtq3q:
+  /@reduxjs/toolkit/1.8.5_wshafwreea6z3lscx66by7pcgq:
     resolution: {integrity: sha512-f4D5EXO7A7Xq35T0zRbWq5kJQyXzzscnHKmjnu2+37B3rwHU6mX9PYlbfXdnxcY6P/7zfmjhgan0Z+yuOfeBmA==}
     peerDependencies:
       react: ^16.9.0 || ^17.0.0 || ^18
@@ -402,7 +402,7 @@ packages:
     dependencies:
       immer: 9.0.15
       react: 18.2.0
-      react-redux: 8.0.4_5uumaiclxbdbzaqafclbf6maf4
+      react-redux: 9.0.2_5uumaiclxbdbzaqafclbf6maf4
       redux: 4.2.0
       redux-thunk: 2.4.1_redux@4.2.0
       reselect: 4.1.6
@@ -411,13 +411,6 @@ packages:
   /@remix-run/router/1.0.2:
     resolution: {integrity: sha512-GRSOFhJzjGN+d4sKHTMSvNeUPoZiDHWmRnXfzaxrqe7dE/Nzlc8BiMSJdLDESZlndM7jIUrZ/F4yWqVYlI0rwQ==}
     engines: {node: '>=14'}
-    dev: false
-
-  /@types/hoist-non-react-statics/3.3.1:
-    resolution: {integrity: sha512-iMIqiko6ooLrTh1joXodJK5X9xeEALT1kM5G3ZLhD3hszxBdIEd5C75U834D9mLcINgD4OyZf5uQXjkuYydWvA==}
-    dependencies:
-      '@types/react': 18.0.21
-      hoist-non-react-statics: 3.3.2
     dev: false
 
   /@types/prop-types/15.7.5:
@@ -982,12 +975,6 @@ packages:
       function-bind: 1.1.1
     dev: true
 
-  /hoist-non-react-statics/3.3.2:
-    resolution: {integrity: sha512-/gGivxi8JPKWNm/W0jSmzcMPpfpPLc3dY/6GxhX2hQ9iGj3aDfklV4ET7NjKpSinLpJ5vafa9iiGIEZg10SfBw==}
-    dependencies:
-      react-is: 16.13.1
-    dev: false
-
   /immer/9.0.15:
     resolution: {integrity: sha512-2eB/sswms9AEUSkOm4SbV5Y7Vmt/bKRwByd52jfLkW4OLYeaTP3EEiJ9agqU0O/tq6Dk62Zfj+TJSqfm1rLVGQ==}
     dev: false
@@ -1225,23 +1212,15 @@ packages:
       scheduler: 0.23.0
     dev: false
 
-  /react-is/16.13.1:
-    resolution: {integrity: sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==}
-    dev: false
-
-  /react-is/18.2.0:
-    resolution: {integrity: sha512-xWGDIW6x921xtzPkhiULtthJHoJvBbF3q26fzloPCK0hsvxtPVelvftw3zjbHWSkR2km9Z+4uxbDDK/6Zw9B8w==}
-    dev: false
-
-  /react-redux/8.0.4_5uumaiclxbdbzaqafclbf6maf4:
-    resolution: {integrity: sha512-yMfQ7mX6bWuicz2fids6cR1YT59VTuT8MKyyE310wJQlINKENCeT1UcPdEiX6znI5tF8zXyJ/VYvDgeGuaaNwQ==}
+  /react-redux/9.0.2_5uumaiclxbdbzaqafclbf6maf4:
+    resolution: {integrity: sha512-34EI42cYZxJF59Iht6RDM5xDun5EdhV8CbJcTe+mYx97XMHLNYA6RrH9r/ZOZX3CetVCYfBEU9oAY9h3sZarsw==}
     peerDependencies:
-      '@types/react': ^16.8 || ^17.0 || ^18.0
-      '@types/react-dom': ^16.8 || ^17.0 || ^18.0
-      react: ^16.8 || ^17.0 || ^18.0
-      react-dom: ^16.8 || ^17.0 || ^18.0
-      react-native: '>=0.59'
-      redux: ^4
+      '@types/react': ^18.2.41
+      '@types/react-dom': ^18.2.17
+      react: ^18.0
+      react-dom: ^18.0
+      react-native: '>=0.71'
+      redux: ^5.0.0
     peerDependenciesMeta:
       '@types/react':
         optional: true
@@ -1254,15 +1233,11 @@ packages:
       redux:
         optional: true
     dependencies:
-      '@babel/runtime': 7.19.0
-      '@types/hoist-non-react-statics': 3.3.1
       '@types/react': 18.0.21
       '@types/react-dom': 18.0.6
       '@types/use-sync-external-store': 0.0.3
-      hoist-non-react-statics: 3.3.2
       react: 18.2.0
       react-dom: 18.2.0_react@18.2.0
-      react-is: 18.2.0
       use-sync-external-store: 1.2.0_react@18.2.0
     dev: false
 
